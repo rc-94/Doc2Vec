@@ -71,7 +71,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Doc2Vec')
     parser.add_argument('--rootpath', default='C:/Users/roxan/Documents/Dauphine/M2/Stage/optc/ecar/benign', help='Root filepath') #
     parser.add_argument('--corpus_savepath', default='C:/Users/roxan/Documents/Dauphine/M2/Stage/corpus.txt', help='Path where to save the corpus')
-    parser.add_argument('--vector_size', default = 64, help='Vector_size for the Doc2Vec model')
+    parser.add_argument('--vector_size', default = 128, help='Vector_size for the Doc2Vec model')
     parser.add_argument('--seed', default=0, help='Seed for the random number generator')
     parser.add_argument('--model_savepath', default='C:/Users/roxan/Documents/Dauphine/M2/Stage/model', help='Path where the trained model should be saved')
     parser.add_argument('--n_epochs', default = 10, help='Number of epochs for the Doc2Vec model')
